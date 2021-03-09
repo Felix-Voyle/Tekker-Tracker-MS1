@@ -108,12 +108,24 @@ header {
     align-items: center;
 }
 
-.form-container {
-    display: flex;
-    align-items: center;
-}
-
 form input {
     background-color: #dfdfdf;
     color: #0d2033;
 }
+
+/*---- this was taken from https://www.w3schools.com/howto/howto_css_placeholder.asp --*/
+
+::placeholder { 
+  color: #e9ab00;
+  opacity: .6; 
+}
+
+:-ms-input-placeholder { 
+  color: #e9ab00;
+}
+
+::-ms-input-placeholder { 
+  color: #e9ab00;
+}
+
+/*------------*/
