@@ -93,3 +93,10 @@ header {
      font-size: large;
    }
 }
+
+/*---------Upload section-----*/
+
+.upload-heading {
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
