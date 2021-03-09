@@ -47,3 +47,41 @@ header {
   color: #e9ab00;
   transition: all .25s linear;
 }
+
+/*--------footer---------*/
+
+.footer {
+  background-color: #0d2033;
+  color: #dfdfdf;
+  height: 50px;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer i {
+  font-size: medium;
+  letter-spacing: 5px;
+  margin: 5px 5px; 
+  color: #e9ab00;
+} 
+
+.footer i:hover {
+  color: #dfdfdf;
+  transition: all .25s linear
+}
+
+.footer-text {
+  font-size: 7px;
+}
+
+@media screen and (min-width: 425px) {
+   .footer-text {
+     font-size: 10px;
+   }
+   .footer i {
+     letter-spacing: 15px;
+     font-size: large;
+   }
+}
