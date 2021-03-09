@@ -138,6 +138,10 @@ form input {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#fileupload {
+    background-color: #e9ab00;
+}
+
 /*---- this was taken from https://www.w3schools.com/howto/howto_css_placeholder.asp --*/
 
 ::placeholder { 
