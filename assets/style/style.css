@@ -109,23 +109,39 @@ header {
 }
 
 form input {
+    font-family: 'Ubuntu Mono', monospace;
     background-color: #dfdfdf;
     color: #0d2033;
+}
+
+.upload-hr {
+    width: 66%;
+    color: #0d2033;
+}
+
+#submit-btn {
+    color: #e9ab00;
+    background-color: #0d2033;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*---- this was taken from https://www.w3schools.com/howto/howto_css_placeholder.asp --*/
 
 ::placeholder { 
-  color: #e9ab00;
-  opacity: .6; 
+    font-family: 'Ubuntu Mono', monospace;  
+    color: #e9ab00;
+    opacity: .6; 
 }
 
-:-ms-input-placeholder { 
-  color: #e9ab00;
+:-ms-input-placeholder {
+    font-family: 'Ubuntu Mono', monospace;   
+    color: #e9ab00;
 }
 
 ::-ms-input-placeholder { 
-  color: #e9ab00;
+    font-family: 'Ubuntu Mono', monospace;  
+    color: #e9ab00;
 }
 
 /*------------*/
