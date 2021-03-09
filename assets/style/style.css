@@ -1,0 +1,49 @@
+/*-------- Nav bar/header------*/
+
+.tekker {
+  margin: 10px 0 0 10px;
+  color: #dfdfdf;
+  letter-spacing: 3px;
+}
+
+.tekker:hover {
+  color:#e9ab00;
+  transition: all .5s linear;
+}
+ 
+ .text-decoration-none {
+   text-decoration: none !important
+ }
+
+ul a {
+  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding: 0 2px 0 0;
+}
+
+header {
+  background-color: #0d2033;
+}
+
+.btn-custom {
+  border-right: 2px solid #dfdfdf;
+  color: #e9ab00;
+
+}
+
+.btn-custom:hover {
+  color: #dfdfdf;
+  transition: all .25s linear;  
+}
+
+
+.button-active {
+  text-decoration: underline;
+  color: #dfdfdf;
+}
+
+.button-active:hover {
+  color: #e9ab00;
+  transition: all .25s linear;
+}
