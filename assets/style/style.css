@@ -14,6 +14,16 @@ body {
   letter-spacing: 3px;
 }
 
+#brand-title {
+    font-size: 32px;
+}
+
+@media screen and (min-width: 375px) {
+    #brand-title {
+        font-size: 40px;
+    }
+}
+
 .tekker:hover {
   color:#e9ab00;
   transition: all .5s linear;
