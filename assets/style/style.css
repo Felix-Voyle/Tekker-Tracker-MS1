@@ -97,6 +97,23 @@ header {
 /*---------Upload section-----*/
 
 .upload-heading {
-    margin-top: 6vh;
+    margin-top: 12vh;
     margin-bottom: 3vh;
+    color: #0d2033;
+}
+
+.upload-container {
+    background-color: #e9ab00;
+    height: 90vh;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    background-color: #dfdfdf;
+    color: #0d2033;
 }
