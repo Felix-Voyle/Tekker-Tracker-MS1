@@ -36,6 +36,7 @@ header {
 
 .btn-custom {
   border-right: 2px solid #dfdfdf;
+  padding-right: 3px;
   color: #e9ab00;
 
 }
