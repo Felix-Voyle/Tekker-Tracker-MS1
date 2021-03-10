@@ -175,4 +175,5 @@ form input {
 
 .jumbotron {
     background-color: transparent;
+    position: fixed center;
 }
