@@ -115,7 +115,7 @@ header {
 
 .upload-container {
     background-color: #e9ab00;
-    height: 90vh;
+    height: 100vh;
     align-items: center;
 }
 
@@ -161,3 +161,18 @@ form input {
 }
 
 /*------------*/
+
+/*----------home page-------*/
+
+.hero-image {
+    background: url(../images/skating.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
