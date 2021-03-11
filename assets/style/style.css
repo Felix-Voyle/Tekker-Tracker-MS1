@@ -321,3 +321,20 @@ form input {
         opacity: 0;
     }
 }
+
+/*--------About us Section------*/
+
+.about-us {
+    border: 2px solid #0d2033;
+    margin: 5px;
+}
+
+.sports {
+    border: 2px solid #0d2033;
+    margin: 5px; 
+}
+
+.who-we-work-with {
+   border: 2px solid #0d2033;
+    margin: 5px;  
+}
