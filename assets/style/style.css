@@ -170,9 +170,8 @@ form input {
 }
 
 .testimonial-container{
-    position: relative;
-    
-}
+    background-color: #e9ab00;
+    }
 
 .jumbotron {
     background-color: transparent;
@@ -181,20 +180,40 @@ form input {
     z-index: 1;   
 }
 
+.testimonial-1 {
+    border: 3px solid #0d2033;
+    border-radius: 5px;
+    padding: 15px 5px 15px 5px;
+    margin: 5px;
+    background-color: #dfdfdf;
+    color: #e9ab00;
+}
+
+.testimonial-2 {
+    border: 3px solid #0d2033;
+    border-radius: 5px;
+    padding: 15px 5px 15px 5px;
+    margin: 5px;
+    background-color: #dfdfdf;
+    color: #e9ab00;
+}
+
 .testimonial-1 img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     float: left;
-    zoom: 250%;
+    zoom: 220%;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 .testimonial-2 img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     float: right;
-    zoom: 250%;
+    zoom: 220%;
     border-radius: 50%;
+    margin-left: 10px;
 }
 
 /*------------- for this section i watched this tutorial on youtube 
