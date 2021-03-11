@@ -181,6 +181,22 @@ form input {
     z-index: 1;   
 }
 
+.testimonial-1 img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    zoom: 250%;
+    border-radius: 50%;
+}
+
+.testimonial-2 img {
+    width: 40px;
+    height: 40px;
+    float: right;
+    zoom: 250%;
+    border-radius: 50%;
+}
+
 /*------------- for this section i watched this tutorial on youtube 
 "https://www.youtube.com/watch?v=uHg8W7ZuD9o" ---------*/  
 
