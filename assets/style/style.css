@@ -177,8 +177,18 @@ form input {
 .jumbotron {
     background-color: transparent;
     position: relative;
-    height: 60vh;
+    height: 65vh;
     z-index: 1;   
+}
+
+.btn-jumbotron-custom {
+    background-color: #e9ab00;
+    color: #0d2033;
+}
+
+.btn-jumbotron-custom:hover {
+    border: 1px solid #dfdfdf;
+    color: #dfdfdf
 }
 
 .testimonial-1 {
