@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
+  overflow-x: none;
 }
 
 /*-------- Nav bar/header------*/
@@ -337,4 +338,16 @@ form input {
 .who-we-work-with {
    border: 2px solid #0d2033;
     margin: 5px;  
+}
+
+.logo-wrapper{
+    width: 80%; 
+    overflow-x:scroll;     
+    white-space: nowrap;
+}
+
+.logo-slide img{
+    height: 50px;
+    display: inline-block;
+    width: 50px;
 }
