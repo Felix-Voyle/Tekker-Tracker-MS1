@@ -186,8 +186,8 @@ form input {
     border-radius: 5px;
     padding: 15px 5px 15px 5px;
     margin: 5px;
-    background-color: #dfdfdf;
-    color: #e9ab00;
+    background-color: #e9ab00;
+    color: #0d2033;
 }
 
 .testimonial-2 {
@@ -195,8 +195,8 @@ form input {
     border-radius: 5px;
     padding: 15px 5px 15px 5px;
     margin: 5px;
-    background-color: #dfdfdf;
-    color: #e9ab00;
+    background-color: #e9ab00;
+    color: #0d2033;
 }
 
 .testimonial-1 img {
@@ -327,17 +327,30 @@ form input {
 
 .about-us {
     border: 2px solid #0d2033;
-    margin: 5px;
+    border-radius: 15px;
+    margin: 10px;
 }
 
 .sports {
     border: 2px solid #0d2033;
-    margin: 5px; 
+    border-radius: 15px;
+    margin: 10px;
+    height: 400px;  
+}
+
+.sports li {
+    list-style: none;
 }
 
 .who-we-work-with {
    border: 2px solid #0d2033;
-    margin: 5px;  
+   border-radius: 15px;
+    margin: 10px;
+    height: 400px;  
+}
+
+.who-we-work-with li {
+    list-style: none;
 }
 
 .logo-wrapper{
