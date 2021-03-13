@@ -237,7 +237,7 @@ form input {
 }
 
 .hero1 {
-    background-image: url(../images/skating1.jpg);
+    background-image: url(../images/skating.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 60%;
@@ -248,7 +248,7 @@ form input {
     background-image: url(../images/basketball.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 70% 50%;
+    background-position: 70% 30%;
     animation: fade2 20s infinite;
 }
 
@@ -268,6 +268,7 @@ form input {
     animation: fade4 20s infinite;
 }
 
+/*-----
 @media screen and (min-width:768px) {
     .hero1 {
         background-image: url(../images/surf.jpg);
@@ -275,6 +276,7 @@ form input {
         background-size: cover;
     }
 }
+-----*/
 
 @keyframes fade1 {
     0% {
