@@ -210,10 +210,10 @@ form input {
 }
 
 .testimonial-1 img {
-    width: 35px;
-    height: 35px;
+    width: 90px;
+    height: 90px;
     float: left;
-    zoom: 220%;
+    background-size: cover;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -237,16 +237,18 @@ form input {
 }
 
 .hero1 {
-    background-image: url(../images/skating.jpg);
+    background-image: url(../images/skating1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 60%;
     animation: fade1 20s infinite;
 }
 
 .hero2 {
-    background-image: url(../images/football.jpg);
+    background-image: url(../images/basketball.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 70% 50%;
     animation: fade2 20s infinite;
 }
 
@@ -254,6 +256,7 @@ form input {
     background-image: url(../images/kayak.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 60%;
     animation: fade3 20s infinite;
 }
 
@@ -261,7 +264,16 @@ form input {
     background-image: url(../images/swimmer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 35%;
     animation: fade4 20s infinite;
+}
+
+@media screen and (min-width:768px) {
+    .hero1 {
+        background-image: url(../images/surf.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 @keyframes fade1 {
