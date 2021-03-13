@@ -181,6 +181,16 @@ form input {
     z-index: 1;   
 }
 
+.jumbotron h2 {
+    font-size: 30px;
+    color: #e9ab008f;
+}
+
+.jumbotron h3 {
+    margin-bottom: 30vh;
+    color: #e9ab008f;
+}
+
 .btn-jumbotron-custom {
     background-color: #e9ab00;
     color: #0d2033;
