@@ -89,7 +89,7 @@ header {
 
 .footer i:hover {
   color: #dfdfdf;
-  transition: all .25s linear
+  transition: all .25s linear;
 }
 
 .footer-text {
@@ -104,6 +104,10 @@ header {
      letter-spacing: 15px;
      font-size: large;
    }
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /*---------Upload section-----*/
