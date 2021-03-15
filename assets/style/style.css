@@ -378,9 +378,9 @@ form input {
     color: #e9ab00;
 }
 
-.sports li {
+.sports ul {
     list-style: none;
-    text-align: center;
+    padding: 0;
 }
 
 .who-we-work-with {
@@ -392,9 +392,9 @@ form input {
     background-color: #2C95E6; 
 }
 
-.who-we-work-with li {
+.who-we-work-with ul {
     list-style: none;
-    text-align: center;
+    padding: 0;
 }
 
 .logo-wrapper{
