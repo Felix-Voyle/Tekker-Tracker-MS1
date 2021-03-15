@@ -208,6 +208,7 @@ form input {
     border-radius: 5px;
     padding: 15px 5px 15px 5px;
     margin: 5px;
+    min-height: 125px;
     background-color: #e9ab00;
     color: #0d2033;
 }
@@ -217,6 +218,7 @@ form input {
     border-radius: 5px;
     padding: 15px 5px 15px 5px;
     margin: 5px;
+    min-height: 125px;
     background-color: #e9ab00;
     color: #0d2033;
 }
