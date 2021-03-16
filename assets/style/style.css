@@ -121,7 +121,7 @@ a:hover {
 }
 
 .upload-container {
-    align-items: center;
+    align-self: center;
 }
 
 form input {
@@ -211,7 +211,7 @@ form input {
     padding: 15px 5px 15px 5px;
     margin: 5px;
     min-height: 125px;
-    background-color: #e9ab00;
+    background-color: #dfdfdf;
     color: #0d2033;
 }
 
@@ -221,7 +221,7 @@ form input {
     padding: 15px 5px 15px 5px;
     margin: 5px;
     min-height: 125px;
-    background-color: #e9ab00;
+    background-color:#dfdfdf;
     color: #0d2033;
 }
 
@@ -284,15 +284,7 @@ form input {
     animation: fade4 20s infinite;
 }
 
-/*-----
-@media screen and (min-width:768px) {
-    .hero1 {
-        background-image: url(../images/surf.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
------*/
+/*---------------------------------*/
 
 @keyframes fade1 {
     0% {
@@ -417,6 +409,14 @@ form input {
     width: 50px;
     display: inline-block;
     margin: 5px;
+}
+
+.orange-heading {
+    color: #e9ab00;
+}
+
+.grey-heading {
+    color: #dfdfdf
 }
 
 @media screen and (min-width:992px) {
