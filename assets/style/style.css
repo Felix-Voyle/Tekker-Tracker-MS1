@@ -206,6 +206,7 @@ form input {
     min-height: 125px;
     background-color: #dfdfdf;
     color: #0d2033;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .testimonial-2 {
@@ -216,6 +217,7 @@ form input {
     min-height: 125px;
     background-color:#dfdfdf;
     color: #0d2033;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .testimonial-1 img {
