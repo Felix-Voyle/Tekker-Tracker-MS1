@@ -10,32 +10,19 @@ body {
 
 /*-------- Nav bar/header------*/
 
-.tekker {
-  margin: 10px 0 0 10px;
-  color: #dfdfdf;
-  letter-spacing: 4px;
-}
-
 .brand-title {
     font-size: 32px;
+    margin: 10px 0 0 10px;
+    color: #dfdfdf;
+    letter-spacing: 4px;
 }
 
-@media screen and (min-width: 375px) {
-    .brand-title {
-        font-size: 40px;
-    }
-}
-
-.tekker:hover {
+.brand-title:hover {
   color:#e9ab00;
   transition: all .5s linear;
 }
  
- .text-decoration-none {
-   text-decoration: none !important
- }
-
-ul li {
+.nav li {
   margin: 5px;
   margin-top: 20px;
   margin-bottom: 4px;
@@ -47,27 +34,33 @@ header {
   border-bottom: 2px solid #e9ab00;
 }
 
-.btn-custom {
+.nav-link {
   border-right: 2px solid #dfdfdf;
-  padding-right: 3px;
+  padding: 0 3px 0 3px;
   color: #e9ab00;
 
 }
 
-.btn-custom:hover {
+.nav-link:hover {
   color: #dfdfdf;
   transition: all .25s linear;  
 }
 
 
-.button-active {
+.link-active {
   text-decoration: underline;
   color: #dfdfdf;
 }
 
-.button-active:hover {
+.link-active:hover {
   color: #e9ab00;
   transition: all .25s linear;
+}
+
+@media screen and (min-width: 375px) {
+    .brand-title {
+        font-size: 40px;
+    }
 }
 
 /*--------footer---------*/
@@ -95,21 +88,21 @@ header {
 }
 
 .footer-text {
-  font-size: 7px;
+  font-size: 10px;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 425px) {
    .footer-text {
-     font-size: 10px;
+     font-size: 12px;
    }
    .footer i {
      letter-spacing: 15px;
      font-size: large;
    }
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 /*---------Upload section-----*/
