@@ -426,6 +426,9 @@ form input {
     .sports {
         width: 460px;
     }
+    .about-us {
+        width: 942px;
+    }
 }
 
 @media screen and (min-width: 380px) {
