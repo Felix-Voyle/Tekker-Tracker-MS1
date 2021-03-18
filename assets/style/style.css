@@ -138,6 +138,7 @@ form input {
 
 #fileupload {
     background-color: #516375;
+    width: 205px;
 }
 
 /*---- this was taken from https://www.w3schools.com/howto/howto_css_placeholder.asp --*/
