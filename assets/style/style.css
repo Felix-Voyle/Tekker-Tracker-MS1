@@ -63,6 +63,15 @@ header {
     }
 }
 
+@media screen and (min-width: 1500px) {
+    .page-container {
+    max-width: 1500px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    }
+}
+
 /*--------footer---------*/
 
 .footer {
@@ -349,6 +358,40 @@ form input {
     100% {
         opacity: 0;
     }
+}
+
+@media screen and (min-width:770px) {
+    .hero1 {
+    background-image: url(../images/skating-big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    animation: fade1 20s infinite;
+}
+
+.hero2 {
+    background-image: url(../images/basketball-big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 30%;
+    animation: fade2 20s infinite;
+}
+
+.hero3 {
+    background-image: url(../images/kayak-big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    animation: fade3 20s infinite;
+}
+
+.hero4 {
+    background-image: url(../images/swimmer-big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 35%;
+    animation: fade4 20s infinite;
+}
 }
 
 /*--------About us Section------*/
