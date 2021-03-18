@@ -358,6 +358,16 @@ form input {
     margin: 10px;
     padding: 10px;
     background-color: #e9ab00;
+    color: #0d2033;
+}
+
+.about-us-left {
+  width: 60%;
+}
+
+.about-us-right {
+  width: 60%;
+  float: right;
 }
 
 .sports {
