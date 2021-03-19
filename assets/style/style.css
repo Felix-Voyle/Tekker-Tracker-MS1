@@ -277,8 +277,6 @@ form input {
     animation: fade4 20s infinite;
 }
 
-/*---------------------------------*/
-
 @keyframes fade1 {
     0% {
         opacity: 1;
@@ -348,6 +346,8 @@ form input {
     }
 }
 
+/*---------------------------------*/
+
 @media screen and (min-width:770px) {
     .hero1 {
     background-image: url(../images/skating-big.jpg);
@@ -380,6 +380,15 @@ form input {
     background-position: 50% 45%;
     animation: fade4 20s infinite;
 }
+}
+
+@media screen and (min-width: 992px) {
+    .testimonial-1 {
+        width: 480px;
+    }
+    .testimonial-2 {
+        width: 480px;
+    }
 }
 
 @media screen and (min-width: 1500px) {
