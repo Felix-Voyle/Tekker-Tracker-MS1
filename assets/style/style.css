@@ -73,6 +73,7 @@ header {
   bottom: 0;
   border-top: 2px solid #e9ab00;
   text-align: center;
+  z-index: 1;
 }
 
 .footer i {
@@ -180,11 +181,31 @@ form input {
 .jumbotron h2 {
     font-size: 30px;
     color: #e9ab008f;
+    animation: text-gradient 20s infinite
 }
 
 .jumbotron h3 {
     margin-bottom: 5vh;
     color: #e9ab008f;
+    animation: text-gradient 20s infinite
+}
+
+@keyframes text-gradient {
+    0% {
+        color: #516375;
+    }
+    25% {
+        color: white;
+    }
+    50% {
+        color: #d3d0d0;
+    }
+    75% {
+        color: #e9ab00;
+    }
+    100% {
+        color: black;
+    }
 }
 
 .btn-upload-now  {
@@ -505,17 +526,11 @@ iframe {
     border: none;
 }
 
-.picture-wrapper{ 
-    overflow-x:scroll;     
-    white-space: nowrap;
-    margin-top: 5vh;
-}
-
 .carousel {
     max-height: 800px;
     max-width: 1200px;
     width: 85%;
     display: inline-block;
     margin-top: 5vh;
-    background-size: cover
+    background-size: cover;
 }
