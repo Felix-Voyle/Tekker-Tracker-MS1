@@ -5,7 +5,7 @@ body {
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
   background-color: #516375;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 /*-------- Nav bar/header------*/
@@ -528,7 +528,6 @@ iframe {
     padding: 0;
     height: 40vh;
     width:85%;
-    margin-top: 5vh;
     border: none;
 }
 
@@ -537,6 +536,19 @@ iframe {
     max-width: 1200px;
     width: 85%;
     display: inline-block;
-    margin-top: 5vh;
     background-size: cover;
+}
+
+.projects-heading {
+    color: #dfdfdf;
+    margin-top: 8vh; 
+}
+
+@media screen and (min-width: 600px) {
+    iframe {
+        margin-top: 4vh;
+    }
+    .projects-carousel {
+        margin-top: 4vh;
+    }
 }
