@@ -27,17 +27,20 @@ clubs or the right material for advertising agencies. Tekker Tracker's aim is to
 
 ## Design
 
-### Colour Scheme
-My colour scheme consists of three colours which i feel work well and contrast each other nicely. 
-I am using #0d2033 which is a dark blue as the main colour of the header and footer.
-Then for the text, social links and headings i am using a mix of #e9ab00 and #dfdfdf.
-Both of these stand out well against the blue and i feel all compliment eachother. 
+- Colour Scheme
+  - My colour scheme consists of four main colours which i feel work well and contrast each other nicely; 
+    - I am using #0d2033 which is a dark blue as the main colour of the header and footer.
+    - For the text, social links and headings i am using a mix of #e9ab00 and #dfdfdf.
+Both of these stand out well against the blue and i feel all compliment eachother.
+    - I am also using #516375 as a general background colour across all pages.  
 
-### Typography
-I plan to use "Ubuntu" as the main font type for my website. I may use the "ubuntu monospace" variant
+- Typography
+  - I used "Ubuntu" as the main font type for my website. I also used the "ubuntu monospace" variant
 to help some text areas stand apart from others. 
 
-### Imagery 
+- Imagery
+  - Imagery is vital in my project. The large animated background image shows that a variety of sports are covered.
+  I also think it makes the site stand out and feel interactive.   
 
 ## Wireframes
 
@@ -146,7 +149,6 @@ using the bootstrap jumbotron and carousel components.
 - For my fading hero image i watched a tutorial on youtube which i have commented in my CSS, I altered this for my own purpose but credit goes to
 "Graphy" - (https://www.youtube.com/watch?v=uHg8W7ZuD9o).
 - I copied code from W3schools to style my placeholder (https://www.w3schools.com/howto/howto_css_placeholder.asp)
-- 
 
 #### Media
 
