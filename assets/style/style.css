@@ -447,14 +447,15 @@ form input {
     padding: 10px;
     background-color: #e9ab00;
     color: #0d2033;
+    font-size: 18px;
 }
 
 .about-us-left {
-  width: 60%;
+  width: 50%;
 }
 
 .about-us-right {
-  width: 60%;
+  width: 50%;
   float: right;
 }
 
@@ -463,9 +464,10 @@ form input {
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
-    height: 400px;
+    height: 310px;
     background-color: #0d2033;
     color: #dfdfdf;
+    font-size: 18px;
 }
 .sports i {
     color: #e9ab00;
@@ -476,19 +478,28 @@ form input {
     padding: 0;
 }
 
+.sports li {
+    margin-top: 8px;
+}
+
 .who-we-work-with {
     border: 2px solid #0d2033;
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
-    height: 400px;
+    height: 310px;
     color: #dfdfdf;
-    background-color:#0d2033; 
+    background-color:#0d2033;
+    font-size: 18px; 
 }
 
 .who-we-work-with ul {
     list-style: none;
     padding: 0;
+}
+
+.who-we-work-with li {
+    margin-top: 5px
 }
 
 .logo-slide img{
@@ -557,7 +568,6 @@ iframe {
     background-color: #0d2033;
     height: 55px;
 }
-
 
 .projects-heading {
     color: #dfdfdf;
