@@ -566,6 +566,7 @@ iframe {
     height: 40vh;
     width:85%;
     border: none;
+    border-bottom: #0d2033;
 }
 
 .projects-carousel {
