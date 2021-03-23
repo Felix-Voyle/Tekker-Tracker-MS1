@@ -78,7 +78,7 @@ header {
 
 .footer i {
   font-size: 18px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   color: #e9ab00;
 } 
 
@@ -97,8 +97,7 @@ a:hover {
 
 @media screen and (min-width: 365px) {
     .footer i {
-     letter-spacing: 6px;
-     font-size: 20px;  
+     letter-spacing: 8px;  
     }
 }
 
@@ -107,7 +106,7 @@ a:hover {
      font-size: 13px;
    }
    .footer i {
-     letter-spacing: 8px;
+     letter-spacing: 10px;
    }
 }
 
