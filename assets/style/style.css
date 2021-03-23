@@ -447,7 +447,7 @@ form input {
     padding: 10px;
     background-color: #e9ab00;
     color: #0d2033;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .about-us-left {
@@ -464,10 +464,10 @@ form input {
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
-    height: 310px;
+    height: 300px;
     background-color: #0d2033;
     color: #dfdfdf;
-    font-size: 18px;
+    font-size: 14px;
 }
 .sports i {
     color: #e9ab00;
@@ -479,7 +479,7 @@ form input {
 }
 
 .sports li {
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .who-we-work-with {
@@ -487,10 +487,10 @@ form input {
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
-    height: 310px;
+    height: 300px;
     color: #dfdfdf;
     background-color:#0d2033;
-    font-size: 18px; 
+    font-size: 14px; 
 }
 
 .who-we-work-with ul {
@@ -499,7 +499,7 @@ form input {
 }
 
 .who-we-work-with li {
-    margin-top: 5px
+    margin-top: 10px
 }
 
 .logo-slide img{
@@ -517,6 +517,33 @@ form input {
     color: #dfdfdf
 }
 
+@media screen and (min-width: 380px) {
+    .logo-slide img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (min-width:404px) {
+    .about-us {
+        font-size: 16px;
+    }
+    .sports {
+        font-size: 16px;
+        height: 310px;
+    }
+    .who-we-work-with {
+        font-size: 16px;
+        height: 310px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .partners-carousel {
+        max-width: 500px;
+    }
+}
+
 @media screen and (min-width:992px) {
     .who-we-work-with {
         width: 460px;
@@ -526,19 +553,6 @@ form input {
     }
     .about-us {
         width: 942px;
-    }
-}
-
-@media screen and (min-width: 380px) {
-    .logo-slide img {
-        height: 50px;
-        width: 50px;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    .partners-carousel {
-        max-width: 500px;
     }
 }
 
