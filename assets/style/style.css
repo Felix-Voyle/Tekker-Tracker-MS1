@@ -82,6 +82,10 @@ header {
   color: #e9ab00;
 } 
 
+.social-links {
+    margin-top: 1px;
+}
+
 .footer i:hover {
   color: #dfdfdf;
   transition: all .25s linear;
