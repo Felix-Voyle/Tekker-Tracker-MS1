@@ -95,7 +95,7 @@ a:hover {
     text-decoration: none;
 }
 
-@media screen and (min-width: 354px) {
+@media screen and (min-width: 365px) {
     .footer i {
      letter-spacing: 6px;
      font-size: 20px;  
@@ -252,6 +252,7 @@ form input {
     float: left;
     background-size: cover;
     border-radius: 50%;
+    border: 2px solid #e9ab00;
     margin-right: 10px;
 }
 
@@ -261,7 +262,16 @@ form input {
     float: right;
     background-size: cover;
     border-radius: 50%;
+    border: 2px solid #e9ab00;
     margin-left: 10px;
+}
+
+.testimonial-name {
+    float: right;
+}
+
+.testimonial-quote {
+    font-size: 22px;
 }
 
 /*------------- for this section i watched this tutorial on youtube 
