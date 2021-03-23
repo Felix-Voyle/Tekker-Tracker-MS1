@@ -546,7 +546,18 @@ iframe {
     width: 85%;
     display: inline-block;
     background-size: cover;
+    border: 5px solid #0d2033;
 }
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 12px;
+    background-color: #0d2033;
+    height: 55px;
+}
+
 
 .projects-heading {
     color: #dfdfdf;
