@@ -122,10 +122,6 @@ a:hover {
     color: #0d2033;
 }
 
-.upload-container {
-    align-self: center;
-}
-
 form input {
     font-family: 'Ubuntu', sans-serif;
     background-color: #dfdfdf;
