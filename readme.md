@@ -1,3 +1,5 @@
+ <h2 align="center"><img src="https://ibb.co/g3rRTww"></h2>
+
 # Tekker Tracker
 Tekker Tracker is an online sports agency that allows users to directly upload their content, through images or video.
 With the massive increase in ability of people to create their own professional quality content, we provide a platform for athletes / content creators 
