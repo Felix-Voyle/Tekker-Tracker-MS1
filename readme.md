@@ -6,6 +6,8 @@ With the massive increase in ability of people to create their own professional 
 to upload their acheivements and increase their chances of monetising them. Whether that be through brand endorsements, increased exposure to professional 
 clubs or the right material for advertising agencies. Tekker Tracker's aim is to democratise the talent finding process.
 
+My original idea was to make a type of sporting social media site, connecting and easily highlighting talent both to p
+
 
 ## UX
 ### User Stories
@@ -143,16 +145,6 @@ I also used lighthouse in google chrome developer tools to test for performance,
 - I tested all navigation links and social links extensively to ensure they were working on each and every page.
 - I asked family and friends to review the site and give feedback on their personal user experiences and highlight any issues they ran into. 
 
-## Credits
-
-#### Code
-
-- Bootstrap used throughout the project mainly using the grid system to make site responsive but also 
-using the bootstrap jumbotron and carousel components. 
-- For my fading hero image i watched a tutorial on youtube which i have commented in my CSS, I altered this for my own purpose but credit goes to
-"Graphy" - (https://www.youtube.com/watch?v=uHg8W7ZuD9o).
-- I copied code from W3schools to style my placeholder (https://www.w3schools.com/howto/howto_css_placeholder.asp)
-
 ## Deployment
 ### Github pages
 The project was deployed to Github pages using the following steps;
@@ -163,6 +155,17 @@ The project was deployed to Github pages using the following steps;
 1. The page then automatically refreshes itself.
 1. Scroll back down the page and there will now be a published site link within the "GitHub Pages" section.
 
+## Credits
+
+#### Code
+
+- Bootstrap used throughout the project mainly using the grid system to make site responsive but also 
+using the bootstrap jumbotron and carousel components. 
+- For my fading hero image i watched a tutorial on youtube which i have commented in my CSS, I altered this for my own purpose but credit goes to
+"Graphy" - (https://www.youtube.com/watch?v=uHg8W7ZuD9o).
+- I copied code from W3schools to style my placeholder (https://www.w3schools.com/howto/howto_css_placeholder.asp)
+- https://www.w3schools.com/howto/howto_css_placeholder.asp - Used this code from W3 schools to style my placeholders.
+- https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3 - This post on StackOverflow helped me work out how to have my changing header text color on my home page.
 
 #### Media
 
@@ -179,3 +182,8 @@ All sports images and video sourced from Pexels
 
 - Partners images credit goes to;
   * Vijay Verma downloaded from gumroad.com
+
+#### Acknowledgments
+- https://www.w3schools.com/ was an invaluable resource for referring back to throughout.
+- https://stackoverflow.com/ was a great resource if i had any issues i often found someone had previously had the same problem and it had been solved with help from others.  
+
