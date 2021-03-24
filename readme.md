@@ -126,9 +126,6 @@ I also used lighthouse in google chrome developer tools to test for performance,
 - As a returning visitor I want to know that my material has been successfully submitted.
   1. Upon successful upload of material, user is presented with a message confirming that their material was succesfully uploaded.
 
-- As a returning visitor I want to know i will receive some feedback on my submission.
-  1. Succesful upload message confirms that Tekker tracker will be in touch regarding upload.
-
 #### Frequent  Visitor Goals
 - As a frequent user i would have received feedback on previous submissions and be looking to submit more or improved content.
   1. I now have a good understanding of the website and I can easily navigate to the upload section either by the "upload now" 
@@ -140,7 +137,11 @@ I also used lighthouse in google chrome developer tools to test for performance,
 - As a frequent user i would want contact details to chase up my submission if i hadn't heard back.
   1. contact details are clear and on the footer of every page.    
 
-## Testing
+### Further Testing
+- The website was tested on Google Chrome, Safari, Firefox and Microsoft Edge browsers.
+- The website was checked on a variety of devices from small phones to larger desktop screens. 
+- I tested all navigation links and social links extensively to ensure they were working on each and every page.
+- I asked family and friends to review the site and give feedback on their personal user experiences and highlight any issues they ran into. 
 
 ## Credits
 
@@ -152,14 +153,25 @@ using the bootstrap jumbotron and carousel components.
 "Graphy" - (https://www.youtube.com/watch?v=uHg8W7ZuD9o).
 - I copied code from W3schools to style my placeholder (https://www.w3schools.com/howto/howto_css_placeholder.asp)
 
+## Deployment
+### Github pages
+The project was deployed to Github pages using the following steps;
+1. Log in to GitHub, locate your chosen repository and select it.
+1. At the top of the repository (in it's menu) select the settings button.
+1. Scroll towards the bottom of the settings page and locate the "GitHub Pages" section.
+1. Under "Source", click the dropdown menu and select "Master Branch".
+1. The page then automatically refreshes itself.
+1. Scroll back down the page and there will now be a published site link within the "GitHub Pages" section.
+
+
 #### Media
 
 All sports images and video sourced from Pexels
 
 - Hero images credit goes to;
-  * Cameron Casey (skater, basketball) 
-  * Jacob Colvin (kayak)
-  * Daniel Torobekov (swimmer)
+  * Cameron Casey (skater, basketball)[View](assets/images/basketball.jpg) [View](assets/images/basketball.jpg) 
+  * Jacob Colvin (kayak) [View](assets/images/kayak.jpg)
+  * Daniel Torobekov (swimmer) [View](assets/images/swimmer.jpg)
 
 - Projects images and video credits;
   * Pixabay
