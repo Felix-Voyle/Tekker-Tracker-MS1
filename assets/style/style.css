@@ -200,19 +200,31 @@ form input {
 
 @keyframes text-gradient {
     0% {
-        color: #516375;
+        color: #7e7c79;
+    }
+    12.5% {
+        color: #dfdfdf
     }
     25% {
         color: white;
     }
-    50% {
-        color: #d3d0d0;
+    27.5% {
+        color: #e7c66c;
     }
-    75% {
+    50% {
         color: #e9ab00;
     }
+    62.5% {
+        color: #e99f00
+    }
+    75% {
+        color: #e98400;
+    }
+    82.5% {
+        color: #864c00;
+    }
     100% {
-        color: black;
+        color: #2c1900;
     }
 }
 
