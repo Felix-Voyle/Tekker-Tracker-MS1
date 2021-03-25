@@ -133,7 +133,7 @@ form input {
     color: #0d2033;
 }
 
-#submit-btn {
+.submit-btn {
     color: #e9ab00;
     background-color: #0d2033;
     padding: 5px 15px 5px 15px;
@@ -141,7 +141,7 @@ form input {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#fileupload {
+.fileupload {
     background-color: #516375;
     width: 205px;
     display: block;
@@ -223,7 +223,7 @@ form input {
     color: #dfdfdf
 }
 
-.testimonial-1 {
+.testimonial {
     border: 3px solid #0d2033;
     border-radius: 5px;
     padding: 15px 5px 15px 5px;
@@ -234,18 +234,7 @@ form input {
     font-family: 'Ubuntu Mono', monospace;
 }
 
-.testimonial-2 {
-    border: 3px solid #0d2033;
-    border-radius: 5px;
-    padding: 15px 5px 15px 5px;
-    margin: 10px 5px;
-    min-height: 125px;
-    background-color:#dfdfdf;
-    color: #0d2033;
-    font-family: 'Ubuntu Mono', monospace;
-}
-
-.testimonial-1 img {
+.testimonial img {
     width: 90px;
     height: 90px;
     float: left;
@@ -253,16 +242,6 @@ form input {
     border-radius: 50%;
     border: 2px solid #e9ab00;
     margin-right: 10px;
-}
-
-.testimonial-2 img {
-    width: 90px;
-    height: 90px;
-    float: right;
-    background-size: cover;
-    border-radius: 50%;
-    border: 2px solid #e9ab00;
-    margin-left: 10px;
 }
 
 .testimonial-name {
