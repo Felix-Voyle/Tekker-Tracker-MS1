@@ -130,6 +130,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position:fixed;
+    top: 0;
     z-index: -1;
     width: 100%;
     height: 100%;
@@ -151,6 +152,7 @@ a:hover {
 .dark-filter {
     background-color: #00000096;
     position:fixed;
+    top: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
