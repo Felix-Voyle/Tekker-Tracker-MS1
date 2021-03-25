@@ -247,20 +247,8 @@ form input {
     margin-right: 10px;
 }
 
-.testimonial-right img {
-    float: right;
-}
-
-.testimonial-right-name {
-    float: right;
-}
-
 .testimonial-quote {
     font-size: 22px;
-}
-
-.testimonial-text { 
-    width: 80%;
 }
 
 .hero1,.hero2,.hero3,.hero4 {
@@ -410,7 +398,25 @@ form input {
     .testimonial {
         width: 480px;
     }
+    .jumbotron-homepage {
+        height: 70vh
+    }
 }
+
+@media screen and (min-width: 1200px) {
+    .testimonial {
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .testimonial-right img {
+    float: right;
+}
+.testimonial-right-name {
+    float: right;
+}
+} 
 
 @media screen and (min-width: 1920px) {
     .page-container {
