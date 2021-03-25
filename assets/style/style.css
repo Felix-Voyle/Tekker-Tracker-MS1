@@ -247,7 +247,11 @@ form input {
     margin-right: 10px;
 }
 
-.testimonial-name {
+.testimonial-right img {
+    float: right;
+}
+
+.testimonial-right-name {
     float: right;
 }
 
@@ -403,17 +407,14 @@ form input {
 }
 
 @media screen and (min-width: 992px) {
-    .testimonial-1 {
-        width: 480px;
-    }
-    .testimonial-2 {
+    .testimonial {
         width: 480px;
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1920px) {
     .page-container {
-    max-width: 1500px;
+    width: 1920px;
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
