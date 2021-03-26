@@ -491,15 +491,11 @@ form input {
 }
 .sports i {
     color: #e9ab00;
+    font-size: 22px;
 }
 
-.sports ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sports li {
-    margin-top: 12px;
+.sports span {
+    margin-top: 10px;
 }
 
 .who-we-work-with {
