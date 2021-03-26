@@ -234,23 +234,34 @@ form input {
     background-color: transparent;
     position: relative;
     height: 65vh;
-    z-index: 1;   
+    z-index: 1;
+       
 }
 
 .jumbotron-homepage h2 {
     font-size: 30px;
+    width: 280px;
     color: #e9ab008f;
     animation: text-gradient 20s infinite;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .jumbotron-homepage h3 {
     color: #e9ab008f;
+    width: 250px;
     animation: text-gradient 20s infinite;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @keyframes text-gradient {
     0% {
-        color: #dfdfdf;
+        color: #f7f7f7;
     }
     25% {
         color: white;
@@ -262,12 +273,13 @@ form input {
         color: #e98400;
     }
     100% {
-        color: #000000;
+        color: #ebebeb;
     }
 }
 
 .btn-upload-now  {
     background-color: #e9ab00b0;
+    border: 2px solid #0d2033;
     color: #0d2033;
     padding: 5px 10px;
     position: absolute;
@@ -415,7 +427,7 @@ form input {
 
 /*---------------------------------*/
 
-@media screen and (min-width:770px) {
+@media screen and (min-width:768px) {
     .hero1 {
     background-image: url(../images/skating-big.jpg);
     background-repeat: no-repeat;
@@ -446,6 +458,23 @@ form input {
     background-size: cover;
     background-position: 50% 45%;
     animation: fade4 20s infinite;
+}
+.jumbotron-homepage h2 {
+    font-size: 3rem;
+    width: 450px;
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron-homepage h3 {
+    color: #e9ab008f;
+    font-size: 2rem;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
 }
 }
 
