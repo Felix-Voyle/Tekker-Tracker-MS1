@@ -537,13 +537,17 @@ form input {
     color: #dfdfdf;
     font-size: 14px;
 }
-.sports i {
+.sports i, .who-we-work-with i  {
     color: #e9ab00;
     font-size: 22px;
 }
 
+.sports p, .who-we-work-with p {
+    margin-bottom: 3px;
+}
+
 .sports span {
-    margin-top: 10px;
+    margin-top: 9px;
 }
 
 .who-we-work-with {
@@ -557,13 +561,8 @@ form input {
     font-size: 14px; 
 }
 
-.who-we-work-with ul {
-    list-style: none;
-    padding: 0;
-}
-
-.who-we-work-with li {
-    margin-top: 10px
+.who-we-work-with span {
+    margin-top: 8px
 }
 
 .logo-slide img{
