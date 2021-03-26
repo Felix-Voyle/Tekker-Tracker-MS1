@@ -476,13 +476,8 @@ form input {
 }
 
 .about-us-left {
-  width: 50%;
-}
-
-.about-us-right {
-  width: 50%;
-  float: right;
-}
+    margin-bottom: 10px;
+} 
 
 .sports {
     border: 2px solid #0d2033;
@@ -579,6 +574,16 @@ form input {
     .about-us {
         width: 942px;
     }
+    .about-us-left {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .about-us-right {
+       width: 50%;
+       font-size: 20px;
+       float: right;
+}
 }
 
 /*----------- Projects Section------*/
