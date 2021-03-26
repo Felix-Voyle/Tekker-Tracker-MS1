@@ -129,8 +129,8 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: 48.8%;
     position:fixed;
+    background-position: 48%;
     top: 0;
     z-index: -1;
     width: 100%;
@@ -164,8 +164,7 @@ a:hover {
 }
 
 .upload-heading {
-    margin-top: 12vh;
-    margin-bottom: 3vh;
+    margin-top: 11vh;
     color: #0d2033;
 }
 
@@ -210,6 +209,18 @@ form input {
 ::-ms-input-placeholder { 
     font-family: 'Ubuntu Mono', monospace;  
     color: #e9ab00;
+}
+
+@media screen and (min-width: 577px) {
+    .form-group-left {
+        margin-right: 20px;
+    }
+    .form-group-right {
+        margin-left: 20px;
+    }
+    .upload-background {
+        background-position: 48.3%;
+    }
 }
 
 /*----------home page-------*/
