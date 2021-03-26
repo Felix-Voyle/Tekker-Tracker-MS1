@@ -245,7 +245,7 @@ form input {
     position: relative;
     height: 65vh;
     z-index: 1;
-       
+    border-bottom: 2px solid #e9ab00;   
 }
 
 .jumbotron-homepage h2 {
@@ -491,6 +491,7 @@ form input {
 @media screen and (min-width: 992px) {
     .testimonial {
         width: 480px;
+        margin: 10px 5px 0 5px;
     }
     .jumbotron-homepage {
         height: 70vh
@@ -518,6 +519,10 @@ form input {
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
+    }
+    .jumbotron-homepage {
+        border-right: 2px solid #e9ab00;
+        border-left: 2px solid #e9ab00;
     }
 }
 
