@@ -498,13 +498,7 @@ form input {
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .testimonial {
-        min-width: 400px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1198px) {
     .testimonial-right img {
     float: right;
 }
@@ -512,6 +506,20 @@ form input {
     float: right;
 }
 } 
+
+@media screen and (min-width: 1200px) {
+    .testimonial {
+        min-width: 370px;
+        min-height: 270px;
+        position: relative;
+    }
+    .testimonial p {
+        position: absolute;
+        width: 66%;
+        right: 25px;
+        top: 50px;
+    }
+}
 
 @media screen and (min-width: 1920px) {
     .page-container {
