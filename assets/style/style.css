@@ -542,12 +542,12 @@ form input {
 
 .about-us {
     border: 2px solid #0d2033;
-    border-radius: 15px;
+    border-radius: 2px;
     margin: 10px;
     padding: 10px;
-    background-color: #e9ab00;
+    background-color: #dfdfdf;
     color: #0d2033;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .about-us-left {
@@ -555,8 +555,8 @@ form input {
 } 
 
 .sports, .who-we-work-with {
-    border: 2px solid #0d2033;
-    border-radius: 15px;
+    border: 2px solid #dfdfdf;
+    border-radius: 2px;
     margin: 10px;
     padding: 10px;
     height: 300px;
@@ -590,9 +590,10 @@ form input {
 
 .contact-us {
     background-color: #dfdfdf;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 10px;
     margin-top: 20px;
+    border: 2px solid #0d2033;
+    border-radius: 2px;
 }
 
 .social-media {
@@ -646,8 +647,13 @@ form input {
 }
 
 @media screen and (min-width:992px) {
-    .who-we-work-with, .sports, .social-media, .contact-details {
+    .who-we-work-with, .sports, .contact-details {
         width: 460px;
+    }
+    .social-media {
+        width: 280px;
+        font-size: 30px;
+        margin-bottom: auto;
     }
     .sports {
         width: 460px;
@@ -655,14 +661,12 @@ form input {
     .about-us, .contact-us {
         width: 942px;
     }
-    .about-us-left {
+    .about-us-left, .about-us-right {
         width: 50%;
         font-size: 20px;
     }
 
     .about-us-right {
-       width: 50%;
-       font-size: 20px;
        float: right;
 }
     .contact-us {
