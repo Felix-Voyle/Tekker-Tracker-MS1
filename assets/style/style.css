@@ -595,6 +595,16 @@ form input {
     margin: 5px;
 }
 
+.contact-us {
+    border: 2px solid #0d2033;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e9ab00;
+    color: #0d2033;
+    font-size: 14px;  
+}
+
 @media screen and (min-width: 380px) {
     .logo-slide img {
         height: 50px;
