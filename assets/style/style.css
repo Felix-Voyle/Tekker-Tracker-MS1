@@ -25,6 +25,10 @@ iframe {
     color: #dfdfdf
 }
 
+.blue-heading {
+    color: #0d2033
+}
+
 /*-------- Nav bar/header------*/
 
 .brand-title {
@@ -550,7 +554,7 @@ form input {
     margin-bottom: 10px;
 } 
 
-.sports {
+.sports, .who-we-work-with {
     border: 2px solid #0d2033;
     border-radius: 15px;
     margin: 10px;
@@ -573,17 +577,6 @@ form input {
     margin-top: 9px;
 }
 
-.who-we-work-with {
-    border: 2px solid #0d2033;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 10px;
-    height: 300px;
-    color: #dfdfdf;
-    background-color:#0d2033;
-    font-size: 14px; 
-}
-
 .who-we-work-with span {
     margin-top: 8px
 }
@@ -596,13 +589,9 @@ form input {
 }
 
 .contact-us {
-    border: 2px solid #0d2033;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #e9ab00;
-    color: #0d2033;
-    font-size: 14px;  
+    background-color: #dfdfdf;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 @media screen and (min-width: 380px) {
@@ -633,13 +622,13 @@ form input {
 }
 
 @media screen and (min-width:992px) {
-    .who-we-work-with {
+    .who-we-work-with, .sports, .social-media, .contact-details {
         width: 460px;
     }
     .sports {
         width: 460px;
     }
-    .about-us {
+    .about-us, .contact-us {
         width: 942px;
     }
     .about-us-left {
@@ -652,6 +641,10 @@ form input {
        font-size: 20px;
        float: right;
 }
+    .contact-us {
+       margin-left: auto;
+       margin-right: auto;
+    }   
 }
 
 /*----------- Projects Section------*/
