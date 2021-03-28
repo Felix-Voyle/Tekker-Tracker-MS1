@@ -649,7 +649,7 @@ form input {
         font-size: 30px;
         margin-bottom: auto;
     }
-    
+
     .about-us, .contact-us {
         width: 942px;
     }
@@ -670,12 +670,10 @@ form input {
 /*----------- Projects Section------*/
 
 .projects-carousel {
-    max-height: 800px;
-    max-width: 1200px;
-    width: 85%;
     display: inline-block;
     background-size: cover;
     border: 5px solid #0d2033;
+    margin: 4vh 2vh 4vh 2vh;
 }
 
 .carousel-caption {
@@ -694,9 +692,6 @@ form input {
 
 @media screen and (min-width: 450px) {
     iframe {
-        margin-top: 4vh;
-    }
-    .projects-carousel {
         margin-top: 4vh;
     }
 }
