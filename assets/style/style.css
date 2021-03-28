@@ -253,12 +253,12 @@ form input {
 }
 
 .jumbotron-homepage h2 {
-    font-size: 30px;
+    font-size: 32px;
     width: 280px;
     color: #e9ab008f;
     animation: text-gradient 20s infinite;
     position: absolute;
-    top: 15%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -268,7 +268,7 @@ form input {
     width: 250px;
     animation: text-gradient 20s infinite;
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -588,6 +588,10 @@ form input {
     margin: 5px;
 }
 
+.partners-carousel {
+    width: 500px;
+}
+
 .contact-us {
     background-color: #dfdfdf;
     margin: 10px;
@@ -630,24 +634,14 @@ form input {
     .about-us {
         font-size: 16px;
     }
-    .sports {
+    .sports, .who-we-work-with {
         font-size: 16px;
         height: 310px;
-    }
-    .who-we-work-with {
-        font-size: 16px;
-        height: 310px;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    .partners-carousel {
-        max-width: 500px;
     }
 }
 
 @media screen and (min-width:992px) {
-    .who-we-work-with, .sports, .contact-details {
+    .who-we-work-with, .sports {
         width: 460px;
     }
     .social-media {
@@ -655,9 +649,7 @@ form input {
         font-size: 30px;
         margin-bottom: auto;
     }
-    .sports {
-        width: 460px;
-    }
+    
     .about-us, .contact-us {
         width: 942px;
     }
