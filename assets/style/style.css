@@ -602,6 +602,7 @@ form input {
 
 .social-media {
     background-color: #0d2033;
+    border-radius: 4px;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -621,6 +622,11 @@ form input {
     color: #0d2033;
     font-size: 25px;
     margin: 10px 0 10px 0;
+}
+
+.contact-info {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 @media screen and (min-width: 380px) {
