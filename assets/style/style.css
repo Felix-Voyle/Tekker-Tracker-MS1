@@ -255,7 +255,6 @@ form input {
 .jumbotron-homepage h2 {
     font-size: 32px;
     width: 280px;
-    color: #e9ab008f;
     animation: text-gradient 20s infinite;
     position: absolute;
     top: 17%;
@@ -264,7 +263,6 @@ form input {
 }
 
 .jumbotron-homepage h3 {
-    color: #e9ab008f;
     width: 250px;
     animation: text-gradient 20s infinite;
     position: absolute;
@@ -543,7 +541,7 @@ form input {
 .about-us {
     border: 2px solid #0d2033;
     border-radius: 2px;
-    margin: 10px;
+    margin: 20px 10px 0 10px;
     padding: 10px;
     background-color: #dfdfdf;
     color: #0d2033;
@@ -557,7 +555,7 @@ form input {
 .sports, .who-we-work-with {
     border: 2px solid #dfdfdf;
     border-radius: 2px;
-    margin: 10px;
+    margin: 20px 10px 20px 10px;
     padding: 10px;
     height: 300px;
     background-color: #0d2033;
@@ -590,6 +588,7 @@ form input {
 
 .partners-carousel {
     width: 500px;
+    margin-bottom: 20px;
 }
 
 .contact-us {
