@@ -10,13 +10,6 @@ body {
   margin-bottom: 60px;
 }
 
-iframe {
-    padding: 0;
-    height: 40vh;
-    width:85%;
-    border: none;
-}
-
 .orange-heading {
     color: #e9ab00;
 }
@@ -491,7 +484,7 @@ form input {
 @media screen and (min-width: 1200px) {
     .testimonial {
         min-width: 370px;
-        min-height: 270px;
+        min-height: 240px;
         position: relative;
     }
     .testimonial p {
@@ -673,6 +666,14 @@ form input {
     color: #dfdfdf;
     margin-top: 8vh; 
 }
+
+iframe {
+    padding: 0;
+    border: none;
+    width: 500px;
+}
+
+
 
 @media screen and (min-width: 450px) {
     iframe {
