@@ -662,21 +662,15 @@ form input {
     height: 55px;
 }
 
+.video-control-left {
+    margin-left: -10vw;
+}
+
+.video-control-right {
+    margin-right: -10vw;
+}
+
 .projects-heading {
     color: #dfdfdf;
     margin-top: 8vh; 
-}
-
-iframe {
-    padding: 0;
-    border: none;
-    width: 500px;
-}
-
-
-
-@media screen and (min-width: 450px) {
-    iframe {
-        margin-top: 4vh;
-    }
 }
