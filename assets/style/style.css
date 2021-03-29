@@ -437,7 +437,6 @@ form input {
     }
 }
 
-/*---------------------------------*/
 
 @media screen and (min-width:768px) {
     .hero1 {
@@ -460,26 +459,20 @@ form input {
 .jumbotron-homepage h2 {
     font-size: 3rem;
     width: 450px;
-    position: absolute;
     top: 15%;
     left: 28%;
-    transform: translate(-50%, -50%);
 }
 
 .jumbotron-homepage h3 {
-    color: #e9ab008f;
     font-size: 2rem;
-    position: absolute;
     top: 25%;
     left: 30%;
-    transform: translate(-50%, -50%);
 }
 }
 
 @media screen and (min-width: 992px) {
     .testimonial {
         width: 480px;
-        margin: 10px 5px 0 5px;
     }
     .jumbotron-homepage {
         height: 70vh
