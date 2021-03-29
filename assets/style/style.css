@@ -442,35 +442,21 @@ form input {
 @media screen and (min-width:768px) {
     .hero1 {
     background-image: url(../images/skating-big.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 60%;
-    animation: fade1 20s infinite;
 }
 
 .hero2 {
     background-image: url(../images/basketball-big.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 70% 30%;
-    animation: fade2 20s infinite;
 }
 
 .hero3 {
     background-image: url(../images/kayak-big.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 60%;
-    animation: fade3 20s infinite;
 }
 
 .hero4 {
     background-image: url(../images/swimmer-big.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 45%;
-    animation: fade4 20s infinite;
+    background-position: 50% 45%;   
 }
+
 .jumbotron-homepage h2 {
     font-size: 3rem;
     width: 450px;
