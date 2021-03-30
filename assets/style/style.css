@@ -649,7 +649,7 @@ form input {
 .projects-carousel {
     display: inline-block;
     background-size: cover;
-    border: 5px solid #0d2033;
+    border: 10px solid #0d2033;
     margin: 4vh 2vh 4vh 2vh;
 }
 
@@ -668,6 +668,17 @@ form input {
 
 .video-control-right {
     margin-right: -10vw;
+}
+
+.iframes-carousel {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iframe-container {
+    background-color: #0d2033;
+    max-width: 1280px;
 }
 
 .projects-heading {
