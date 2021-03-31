@@ -34,7 +34,7 @@ clubs or the right material for advertising agencies. Tekker Tracker's aim is to
     - I am using #0d2033 which is a dark blue as the main colour of the header and footer.
     - For the text, social links and headings i am using a mix of #e9ab00 and #dfdfdf.
 Both of these stand out well against the blue and i feel all compliment eachother.
-    - I am also using #516375 as a general background colour across all pages.  
+    - I am also using #7A7265 as a general background colour across all pages.  
 
 - Typography
   - I used "Ubuntu" as the main font type for my website. I also used the "ubuntu monospace" variant

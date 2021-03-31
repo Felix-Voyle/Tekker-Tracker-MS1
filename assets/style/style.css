@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
-  background-color: #516375;
+  background-color: #7A7265;
   margin-bottom: 60px;
 }
 
@@ -306,7 +306,7 @@ form input {
     min-height: 125px;
     background-color: #dfdfdf;
     color: #0d2033;
-    font-family: 'permanent marker'
+    font-family: 'permanent marker', cursive; 
 }
 
 .testimonial img {
@@ -676,11 +676,24 @@ form input {
     margin-right: auto;
 }
 
+.iframe-carousel-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .iframe-container {
     max-width: 1280px;
 }
 
 .projects-heading {
     color: #dfdfdf;
-    margin-top: 8vh; 
+    margin-top: 8vh;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        font-size: 20px;
+    }        
 }
