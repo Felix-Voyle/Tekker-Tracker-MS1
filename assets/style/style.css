@@ -61,12 +61,12 @@ header {
 }
 
 
-.link-active {
+.nav-link-active {
   text-decoration: underline;
   color: #dfdfdf;
 }
 
-.link-active:hover {
+.nav-link-active:hover {
   color: #e9ab00;
   transition: all .25s linear;
 }
@@ -96,13 +96,13 @@ header {
   color: #e9ab00;
 } 
 
-.social-links {
-    margin-top: 1px;
-}
-
 .footer i:hover {
   color: #dfdfdf;
   transition: all .25s linear;
+}
+
+.social-links {
+    margin-top: 1px;
 }
 
 .footer-text {
@@ -232,7 +232,7 @@ form input {
 
 /*----------home page-------*/
 
-.hero-container {
+.hero-image-container {
    padding-left: 0;
    padding-right: 0;
 }
@@ -496,7 +496,7 @@ form input {
 }
 
 @media screen and (min-width: 1920px) {
-    .page-container {
+    .index-page-container {
     width: 1920px;
     position: fixed;
     left: 50%;
@@ -644,7 +644,7 @@ form input {
     }   
 }
 
-/*----------- Projects Section------*/
+/*----------- Gallery Section------*/
 
 .projects-carousel {
     display: inline-block;
