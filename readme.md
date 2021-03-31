@@ -19,12 +19,10 @@ clubs or the right material for advertising agencies. Tekker Tracker's aim is to
 
 #### Returning Time Visitor Goals
 - As a returning visitor I'm ready to upload the content I have created and want a clear path to be able to do this.
-- As a returning visitor I want to know that my material has been successfully submitted.
-- As a returning visitor I want to know i will receive some feedback on my submission. 
+- As a returning user i would want to see up to date and current projects. Including what the company is currently doing. 
 
 #### Frequent  Visitor Goals
-- As a frequent user i would have received feedback on previous submissions and be looking to submit more or improved content. 
-- As a frequent user i would want to see up to date and current projects. Including what the company is currently doing. 
+- As a frequent user i would be looking to submit more or improved content.
 - As a frequent user i would want contact details to chase up my submission if i hadn't heard back. 
 
 ## Design
@@ -128,17 +126,13 @@ I also used lighthouse in google chrome developer tools to test for performance,
   1. The "upload now" callout button is clear and stands out on the homepage.
   1. Upload is also a clear option in the navigation bar. 
 
-- As a returning visitor I want to know that my material has been successfully submitted.
-  1. Upon successful upload of material, user is presented with a message confirming that their material was succesfully uploaded.
-  (this is outside the current scope of skills i have but would be implemented as soon as possible)
+- As a returning user i would want to see up to date and current projects. Including what the company is currently doing.
+1. The "gallery" section highlights work that the company has undertaken as well as suggesting checking out social links for more. 
 
 #### Frequent  Visitor Goals
-- As a frequent user i would have received feedback on previous submissions and be looking to submit more or improved content.
+- As a frequent user i would be looking to submit more or improved content.
   1. I now have a good understanding of the website and I can easily navigate to the upload section either by the "upload now" 
   callout button or via the upload link in the neavigation bar.
-
-- As a frequent user i would want to see up to date and current projects. Including what the company is currently doing.
-  1. The projects section highlights work that the company has undertaken as well as suggesting checking out social links for more.
 
 - As a frequent user i would want contact details to chase up my submission if i hadn't heard back.
   1. contact email is clear and on the footer of every page.
