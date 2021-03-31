@@ -6,8 +6,6 @@ With the massive increase in ability of people to create their own professional 
 to upload their acheivements and increase their chances of monetising them. Whether that be through brand endorsements, increased exposure to professional 
 clubs or the right material for advertising agencies. Tekker Tracker's aim is to democratise the talent finding process.
 
-My original idea was to make a type of sporting social media site, connecting and easily highlighting talent both to p
-
 
 ## UX
 ### User Stories
@@ -40,7 +38,8 @@ Both of these stand out well against the blue and i feel all compliment eachothe
 
 - Typography
   - I used "Ubuntu" as the main font type for my website. I also used the "ubuntu monospace" variant
-to help some text areas stand apart from others. 
+for my placeholder text inside my form group. 
+For my testimonials section i have used the "permanent marker" font type to highlight the fact they are quotes and help them really stand out.  
 
 - Imagery
   - Imagery is vital in my project. The large animated background image shows that a variety of sports are covered.
@@ -55,9 +54,12 @@ Medium screens original - [View](assets/wireframes/ms1-medium-original.pdf)
 Large screens original - [View](assets/wireframes/ms1-large-original.pdf)
 
 ### Updates i made to my wireframes;
-After starting on the design of my site there were some things i realised wouldn't work as well in practice. 
-Therefore i changed my proects section so that my cards sat above and below each other rather than side by side
+After starting on the design of my site there were some things i realised wouldn't work as well in practice; 
+- I changed my proects section so that my cards sat above and below each other rather than side by side
 on smaller screens.
+- I also added in a "contact-us" section as i found when testing my UX that only having some limited contact information in the footer
+wasn't really clear enough.
+- I moved my videos below my images carousel.
 
 Small screens updated - [View](assets/wireframes/ms1-small-updated.pdf)
 
@@ -119,6 +121,7 @@ I also used lighthouse in google chrome developer tools to test for performance,
  I also want easy access to their social media accounts such as instagram, youtube etc.
    1. On the home page testimonials highlight successful user experiences.
    1. Social media links are at the center of the footer on every page and stand out clearly against the footer.
+   1. Within the about-us section there are larger social media links and more than could be fitted inside the footer comfortably.
 
 #### Returning Visitor Goals;
 - As a returning visitor I'm ready to upload the content I have created and want a clear path to be able to do this.
@@ -127,6 +130,7 @@ I also used lighthouse in google chrome developer tools to test for performance,
 
 - As a returning visitor I want to know that my material has been successfully submitted.
   1. Upon successful upload of material, user is presented with a message confirming that their material was succesfully uploaded.
+  (this is outside the current scope of skills i have but would be implemented as soon as possible)
 
 #### Frequent  Visitor Goals
 - As a frequent user i would have received feedback on previous submissions and be looking to submit more or improved content.
@@ -137,7 +141,8 @@ I also used lighthouse in google chrome developer tools to test for performance,
   1. The projects section highlights work that the company has undertaken as well as suggesting checking out social links for more.
 
 - As a frequent user i would want contact details to chase up my submission if i hadn't heard back.
-  1. contact details are clear and on the footer of every page.    
+  1. contact email is clear and on the footer of every page.
+  1. A contact us section is included on the about-us page which is easy to read and includes all relevant contact information.    
 
 ### Further Testing
 - The website was tested on Google Chrome, Safari, Firefox and Microsoft Edge browsers.
@@ -176,14 +181,19 @@ All sports images and video sourced from Pexels
   * Jacob Colvin (kayak) [View](assets/images/kayak.jpg)
   * Daniel Torobekov (swimmer) [View](assets/images/swimmer.jpg)
 
-- Projects images and video credits;
+- Projects images credits;
   * Pixabay
   * Budgeron Bach [View](assets/images/projects/sport6.jpg)
+- Projects videos credits; 
+ * Cottonbro
+ * ShotPot
+ * Roman Odintsov  
 
 - Partners images credit goes to;
   * Vijay Verma downloaded from gumroad.com
 
 #### Acknowledgments
 - https://www.w3schools.com/ was an invaluable resource for referring back to throughout.
-- https://stackoverflow.com/ was a great resource if i had any issues i often found someone had previously had the same problem and it had been solved with help from others.  
+- https://stackoverflow.com/ was a great resource if i had any issues i often found someone had previously had the same problem and it had been solved with help from others.
+- my mentor helped me greatly and pushed me to create something much better than i originally had.  
 
