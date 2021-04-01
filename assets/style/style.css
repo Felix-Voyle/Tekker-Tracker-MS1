@@ -180,6 +180,9 @@ form input {
     font-family: 'Ubuntu', sans-serif;
     background-color: #dfdfdf;
     color: #0d2033;
+    border: 2px solid #0d2033;
+    width: 200px;
+    border-radius: 6px;
 }
 
 .upload-horizontal-rule {
@@ -190,6 +193,7 @@ form input {
 .submit-upload-btn {
     color: #e9ab00;
     background-color: #0d2033;
+    border: 2px solid #e9ab00;
     padding: 5px 15px 5px 15px;
     margin-top: 20px;
     font-family: 'Ubuntu', sans-serif;
@@ -198,20 +202,20 @@ form input {
 .fileupload {
     background-color: transparent;
     color: #dfdfdf;
+    border: none;
+    border-radius: 0;
     width: 205px;
-    display: block;
-    margin: auto;
 }
 
 ::placeholder { 
     font-family: 'Ubuntu Mono', monospace;  
-    color: #e9ab00;
-    opacity: .6; 
+    color: #e9ab00; 
 }
 
 :-ms-input-placeholder {
     font-family: 'Ubuntu Mono', monospace;   
     color: #e9ab00;
+    opacity: .8;
 }
 
 ::-ms-input-placeholder { 
@@ -226,11 +230,21 @@ form input {
     .form-group-right {
         margin-left: 20px;
     }
+    .form-group-top {
+        margin-bottom: 15px;
+    }
+    .form-group-bottom {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
     .upload-background {
         background-position: 48.3%;
     }
     .upload-heading {
         font-size: 28px;
+    }
+    .fileupload {
+        width: 220px;
     }
 }
 
