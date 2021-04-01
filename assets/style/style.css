@@ -697,11 +697,15 @@ form input {
 
 /*----------- Gallery Section------*/
 
-.projects-carousel {
-    display: inline-block;
+.pictures-carousel {
     background-size: cover;
     border: 10px solid #0d2033;
     margin: 4vh 2vh 4vh 2vh;
+}
+
+.pictures-carousel img {
+    max-width: 1050px;
+    max-height: 700px;
 }
 
 .carousel-caption {
