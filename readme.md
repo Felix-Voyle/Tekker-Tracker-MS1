@@ -28,20 +28,20 @@ clubs or the right material for advertising agencies. Tekker Tracker's aim is to
 ## Design
 
 - Colour Scheme
-  - My colour scheme consists of four main colours which i feel work well and contrast each other nicely; 
-    - I am using #0d2033 which is a dark blue as the main colour of the header and footer.
+  - The colour scheme consists of four main colours which work well and contrast each other nicely; 
+    - Using #0d2033 which is a dark blue as the main colour of the header and footer.
     - For the text, social links and headings i am using a mix of #e9ab00 and #dfdfdf.
-Both of these stand out well against the blue and i feel all compliment eachother.
+Both of these stand out well against the blue and they all compliment eachother.
     - I am also using #7A7265 as a general background colour across all pages.  
 
 - Typography
-  - I used "Ubuntu" as the main font type for my website. I also used the "ubuntu monospace" variant
-for my placeholder text inside my form group. 
-For my testimonials section i have used the "permanent marker" font type to highlight the fact they are quotes and help them really stand out.  
+  - "Ubuntu" is used as the main font type for the website, as well as using the "ubuntu monospace" variant
+for the placeholder text inside form groupa. 
+For the testimonials section "permanent marker" font type was used to highlight the fact they are quotes and help them really stand out.  
 
 - Imagery
-  - Imagery is vital in my project. The large animated background image shows that a variety of sports are covered.
-  I also think it makes the site stand out and feel interactive.   
+  - Imagery is vital in this project. The large animated background image shows that a variety of sports are covered.
+  While it is also eyecatching, it makes the site stand out and feel interactive.   
 
 ## Wireframes
 
@@ -51,13 +51,13 @@ Medium screens original - [View](assets/wireframes/ms1-medium-original.pdf)
 
 Large screens original - [View](assets/wireframes/ms1-large-original.pdf)
 
-### Updates i made to my wireframes;
-After starting on the design of my site there were some things i realised wouldn't work as well in practice; 
-- I changed my proects section so that my cards sat above and below each other rather than side by side
+### Updates made to the wireframes;
+After starting on the design of the site there were some things that didn't work as well in practice; 
+- Changed the proects section so that the cards sat above and below each other rather than side by side
 on smaller screens.
-- I also added in a "contact-us" section as i found when testing my UX that only having some limited contact information in the footer
+- Added in a "contact-us" section as found when testing user experiences that only having some limited contact information in the footer
 wasn't really clear enough.
-- I moved my videos below my images carousel.
+- moved videos below the images carousel, as they can take longer to load in.
 
 Small screens updated - [View](assets/wireframes/ms1-small-updated.pdf)
 
@@ -95,9 +95,8 @@ Large screens updated - [View](assets/wireframes/ms1-large-updated.pdf)
   design ideas may not work so well.
 
 # Testing 
-I used the W3C Markup Validator and W3C CSS Validator to check every page of my project to ensure there were no syntax errors.
-
-I also used lighthouse in google chrome developer tools to test for performance, SEO, accessibility and best practices.  
+- Used the W3C Markup Validator and W3C CSS Validator to check every page of the project to ensure there were no syntax errors.
+- Used lighthouse in google chrome developer tools to test for performance, SEO, accessibility and best practices.  
 
 ## Testing User Stories from User Experience (UX) Section
 #### First Time Visitor goals;

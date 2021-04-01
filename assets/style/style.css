@@ -547,7 +547,7 @@ form input {
     border-radius: 2px;
     margin: 20px 10px 20px 10px;
     padding: 10px;
-    height: 300px;
+    max-height: 350px;
     background-color: #0d2033;
     color: #dfdfdf;
     font-size: 14px;
@@ -561,12 +561,9 @@ form input {
     margin-bottom: 3px;
 }
 
-.sports span {
-    margin-top: 9px;
-}
-
-.who-we-work-with span {
-    margin-top: 8px
+.sports span, .who-we-work-with span {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .logo-slide img{
