@@ -188,6 +188,7 @@ form input {
 .upload-horizontal-rule {
     width: 66%;
     border-color: #e9ab00;
+    margin-bottom: 0;
 }
 
 .submit-upload-btn {
@@ -195,8 +196,14 @@ form input {
     background-color: #0d2033;
     border: 2px solid #e9ab00;
     padding: 5px 15px 5px 15px;
-    margin-top: 20px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.submit-upload-btn:hover {
+    border-color: #0d2033;
+    background-color: #dfdfdf;
+    color: #0d2033;
+    transition: all .5s linear;
 }
 
 .fileupload {
@@ -205,6 +212,7 @@ form input {
     border: none;
     border-radius: 0;
     width: 205px;
+    margin: 15px 0 35px 0;
 }
 
 ::placeholder { 
@@ -312,8 +320,10 @@ form input {
 }
 
 .btn-upload-now:hover {
-    border: 1px solid #dfdfdf;
-    color: #dfdfdf
+    border-color: #0d2033;
+    background-color: #dfdfdfb4;
+    color: #0d2033;
+    transition: all .5s linear;
 }
 
 .testimonial {
