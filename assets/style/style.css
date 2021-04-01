@@ -309,7 +309,7 @@ form input {
 }
 
 .btn-upload-now  {
-    background-color: #e9ab00b0;
+    background-color: #e9ab00cc;
     border: 2px solid #0d2033;
     color: #0d2033;
     padding: 5px 10px;
@@ -321,7 +321,7 @@ form input {
 
 .btn-upload-now:hover {
     border-color: #0d2033;
-    background-color: #dfdfdfb4;
+    background-color: #dfdfdfcc;
     color: #0d2033;
     transition: all .5s linear;
 }
@@ -498,6 +498,9 @@ form input {
     .jumbotron-homepage {
         height: 70vh
     }
+    .btn-upload-now {
+    width: 175px;
+}
 }
 
 @media screen and (max-width: 1198px) {
