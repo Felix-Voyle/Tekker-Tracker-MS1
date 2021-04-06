@@ -504,6 +504,14 @@ form input {
     .btn-upload-now {
     width: 175px;
 }
+.jumbotron-homepage h2 {
+    font-size: 4rem;
+    width: 550px;
+}
+.jumbotron-homepage h3 {
+    font-size: 3rem;
+    width: 280px;
+}
 }
 
 @media screen and (max-width: 1198px) {
