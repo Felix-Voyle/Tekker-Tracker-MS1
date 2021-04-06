@@ -231,7 +231,7 @@ form input {
     color: #e9ab00;
 }
 
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 576px) {
     .form-group-left {
         margin-right: 20px;
     }

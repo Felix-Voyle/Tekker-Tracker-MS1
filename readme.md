@@ -32,7 +32,7 @@ clubs or the right material for advertising agencies. Tekker Tracker's aim is to
     - Using #0d2033 which is a dark blue as the main colour of the header and footer.
     - For the text, social links and headings i am using a mix of #e9ab00 and #dfdfdf.
 Both of these stand out well against the blue and they all compliment eachother.
-    - I am also using #7A7265 as a general background colour across all pages.  
+    - #a0a0a0 is used as a general background colour across all pages.  
 
 - Typography
   - "Ubuntu" is used as the main font type for the website, as well as using the "ubuntu monospace" variant
@@ -131,7 +131,7 @@ Large screens updated - [View](assets/wireframes/ms1-large-updated.pdf)
 #### Frequent  Visitor Goals
 - As a frequent user i would be looking to submit more or improved content.
   1. I now have a good understanding of the website and I can easily navigate to the upload section either by the "upload now" 
-  callout button or via the upload link in the neavigation bar.
+  callout button or via the upload link in the navigation bar.
 
 - As a frequent user i would want contact details to chase up my submission if i hadn't heard back.
   1. contact email is clear and on the footer of every page.
@@ -140,8 +140,8 @@ Large screens updated - [View](assets/wireframes/ms1-large-updated.pdf)
 ### Further Testing
 - The website was tested on Google Chrome, Safari, Firefox and Microsoft Edge browsers.
 - The website was checked on a variety of devices from small phones to larger desktop screens. 
-- I tested all navigation links and social links extensively to ensure they were working on each and every page.
-- I asked family and friends to review the site and give feedback on their personal user experiences and highlight any issues they ran into. 
+- All navigation links and social links were tested extensively to ensure they were working on each and every page, and went to the right place. 
+- Family and friends reviewed the site and give feedback on their personal user experiences and highlighted any issues they ran into. 
 
 ## Deployment
 ### Github pages
@@ -161,8 +161,7 @@ The project was deployed to Github pages using the following steps;
 using the bootstrap jumbotron and carousel components. 
 - For my fading hero image i watched a tutorial on youtube which i have commented in my CSS, I altered this for my own purpose but credit goes to
 "Graphy" - (https://www.youtube.com/watch?v=uHg8W7ZuD9o).
-- I copied code from W3schools to style my placeholder (https://www.w3schools.com/howto/howto_css_placeholder.asp)
-- https://www.w3schools.com/howto/howto_css_placeholder.asp - Used this code from W3 schools to style my placeholders.
+- https://www.w3schools.com/howto/howto_css_placeholder.asp - Used this code from W3 schools to style placeholder text.
 - https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3 - This post on StackOverflow helped me work out how to have my changing header text color on my home page.
 
 #### Media
