@@ -167,7 +167,7 @@ a:hover {
 }
 
 .form-container {
-    height: 65vh;
+    height: 70vh;
 }
 
 .upload-heading {
@@ -239,20 +239,23 @@ form input {
         margin-left: 20px;
     }
     .form-group-top {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .form-group-bottom {
-        margin-top: 15px;
+        margin-top: 20px;
         margin-bottom: 25px;
     }
     .upload-background {
         background-position: 48.3%;
     }
     .upload-heading {
-        font-size: 28px;
+        font-size: 30px;
     }
     .fileupload {
         width: 220px;
+    }
+    form input {
+        width: 250px;
     }
 }
 
