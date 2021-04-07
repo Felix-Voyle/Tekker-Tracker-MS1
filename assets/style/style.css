@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
-  background-color: #a0a0a0;
+  background-color: #c8cbce;
   margin-bottom: 60px;
 }
 
@@ -751,4 +751,13 @@ form input {
     .carousel-caption {
         font-size: 20px;
     }        
+}
+
+@media screen and (min-width: 1200px) {
+    .video-control-left {
+    margin-left: -8vw;
+}
+.video-control-right {
+    margin-right: -7vw;
+}
 }
