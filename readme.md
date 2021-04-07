@@ -160,7 +160,7 @@ The project was deployed to Github pages using the following steps;
 - Bootstrap used throughout the project mainly using the grid system to make site responsive but also 
 using the bootstrap jumbotron and carousel components. 
 - For my fading hero image i watched a tutorial on youtube which i have commented in my CSS, I altered this for my own purpose but credit goes to
-"Graphy" - (https://www.youtube.com/watch?v=uHg8W7ZuD9o).
+"Graphy" - https://www.youtube.com/watch?v=uHg8W7ZuD9o
 - https://www.w3schools.com/howto/howto_css_placeholder.asp - Used this code from W3 schools to style placeholder text.
 - https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3 - This post on StackOverflow helped me work out how to have my changing header text color on my home page.
 
@@ -185,7 +185,7 @@ All sports images and video sourced from Pexels
   * Vijay Verma downloaded from gumroad.com
 
 #### Acknowledgments
-- https://www.w3schools.com/ was an invaluable resource for referring back to throughout.
+- https://www.w3schools.com/ and https://css-tricks.com/ were both invaluable resources for referring back to throughout.
 - https://stackoverflow.com/ was a great resource if i had any issues i often found someone had previously had the same problem and it had been solved with help from others.
 - my mentor helped me greatly and pushed me to create something much better than i originally had.  
 
