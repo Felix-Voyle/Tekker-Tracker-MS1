@@ -94,6 +94,10 @@ Large screens updated - [View](assets/wireframes/ms1-large-updated.pdf)
   * Balsamiq was used to create wireframes during the design process and updating them during my project when i realised some of my original
   design ideas may not work so well.
 
+### Features to implement in the future
+- Complete the upload form when i have the relevant skills. I would also like a "successful upload" message to pop up upon a user uploading their content. This was outside 
+my current skillset.
+
 # Testing 
 - Used the W3C Markup Validator and W3C CSS Validator to check every page of the project to ensure there were no syntax errors.
 - Used lighthouse in google chrome developer tools to test for performance, SEO, accessibility and best practices.  
