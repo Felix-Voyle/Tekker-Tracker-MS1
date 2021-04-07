@@ -65,6 +65,13 @@ Medium screens updated - [View](assets/wireframes/ms1-medium-updated.pdf)
 
 Large screens updated - [View](assets/wireframes/ms1-large-updated.pdf)
 
+## Features 
+- Site is responsive across all screen sizes
+
+### Features to implement in the future
+- Complete the upload form when i have the relevant skills. I would also like a "successful upload" message to pop up upon a user uploading their content. This was outside 
+my current skillset.
+
 ## Technologies Used
 
 ### Languages Used
@@ -93,10 +100,6 @@ Large screens updated - [View](assets/wireframes/ms1-large-updated.pdf)
 - Balsamiq
   * Balsamiq was used to create wireframes during the design process and updating them during my project when i realised some of my original
   design ideas may not work so well.
-
-### Features to implement in the future
-- Complete the upload form when i have the relevant skills. I would also like a "successful upload" message to pop up upon a user uploading their content. This was outside 
-my current skillset.
 
 # Testing 
 - Used the W3C Markup Validator and W3C CSS Validator to check every page of the project to ensure there were no syntax errors.
@@ -157,6 +160,35 @@ The project was deployed to Github pages using the following steps;
 1. The page then automatically refreshes itself.
 1. Scroll back down the page and there will now be a published site link within the "GitHub Pages" section.
 
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+1. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+1. Log in to GitHub and locate the GitHub Repository
+1. Under the repository name, click "Clone or download".
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Open Git Bash
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type git clone, and then paste the URL you copied in Step 3.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
 ## Credits
 
 #### Code
@@ -167,6 +199,9 @@ using the bootstrap jumbotron and carousel components.
 "Graphy" - https://www.youtube.com/watch?v=uHg8W7ZuD9o
 - https://www.w3schools.com/howto/howto_css_placeholder.asp - Used this code from W3 schools to style placeholder text.
 - https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3 - This post on StackOverflow helped me work out how to have my changing header text color on my home page.
+
+#### Content 
+- All content was written by the developer 
 
 #### Media
 
